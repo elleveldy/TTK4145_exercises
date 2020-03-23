@@ -1,0 +1,72 @@
+{\rtf1\ansi\deff3\adeflang1025
+{\fonttbl{\f0\froman\fprq2\fcharset0 Times New Roman;}{\f1\froman\fprq2\fcharset2 Symbol;}{\f2\fswiss\fprq2\fcharset0 Arial;}{\f3\froman\fprq2\fcharset0 Liberation Serif{\*\falt Times New Roman};}{\f4\fswiss\fprq2\fcharset0 Liberation Sans{\*\falt Arial};}{\f5\froman\fprq0\fcharset128 Calibri;}{\f6\fnil\fprq0\fcharset2 OpenSymbol{\*\falt Arial Unicode MS};}{\f7\fmodern\fprq1\fcharset0 Liberation Mono{\*\falt Courier New};}{\f8\fswiss\fprq0\fcharset128 Calibri;}{\f9\fnil\fprq2\fcharset0 Droid Sans Fallback;}{\f10\fmodern\fprq1\fcharset0 Droid Sans Fallback;}{\f11\fnil\fprq2\fcharset0 FreeSans;}{\f12\fswiss\fprq0\fcharset128 FreeSans;}}
+{\colortbl;\red0\green0\blue0;\red128\green128\blue128;}
+{\stylesheet{\s0\snext0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af9\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang1033 Normal;}
+{\s2\sbasedon17\snext2\sb240\sa120\keepn\dbch\af9\dbch\af11\afs28\loch\f4\fs28 Heading 2;}
+{\*\cs15\snext15\dbch\af6\dbch\af6\loch\f6 Bullets;}
+{\*\cs16\snext16\dbch\af10\dbch\af7\loch\f7 Source Text;}
+{\s17\sbasedon0\snext18\sb240\sa120\keepn\dbch\af9\dbch\af11\afs28\loch\f4\fs28 Heading;}
+{\s18\sbasedon0\snext18\sl288\slmult1\sb0\sa140 Text Body;}
+{\s19\sbasedon18\snext19\sl288\slmult1\sb0\sa140\dbch\af12 List;}
+{\s20\sbasedon0\snext20\sb120\sa120\noline\i\dbch\af12\afs24\ai\fs24 Caption;}
+{\s21\sbasedon0\snext21\noline\dbch\af12 Index;}
+}{\info{\creatim\yr0\mo0\dy0\hr0\min0}{\revtim\yr0\mo0\dy0\hr0\min0}{\printim\yr0\mo0\dy0\hr0\min0}{\comment LibreOffice}{\vern67241986}}\deftab720
+\viewscale100
+{\*\pgdsctbl
+{\pgdsc0\pgdscuse451\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\pgdscnxt0 Default Style;}}
+\formshade{\*\pgdscno0}\paperh15840\paperw12240\margl1800\margr1800\margt1440\margb1440\sectd\sbknone\sectunlocked1\pgndec\pgwsxn12240\pghsxn15840\marglsxn1800\margrsxn1800\margtsxn1440\margbsxn1440\ftnbj\ftnstart1\ftnrstcont\ftnnar\aenddoc\aftnrstcont\aftnstart1\aftnnrlc
+\pgndec\pard\plain \s2\sb240\sa120\keepn\dbch\af9\dbch\af11\afs28\loch\f4\fs28\sl276\slmult1\sb0\sa200{\b\ab\rtlch \ltrch\loch
+3: Reasons for concurrency and parallelism}
+\par \pard\plain \s2\sb240\sa120\keepn\dbch\af9\dbch\af11\afs28\loch\f4\fs28\sl276\slmult1\sb0\sa200{\ul\ulc0\b0\afs22\ab0\rtlch \ltrch\loch\fs22\loch\f8
+What is concurrency? What is parallelism? What's the difference? }
+\par \pard\plain \s18\sl288\slmult1\sb0\sa140\sl276\slmult1\sb0\sa200{\afs22\rtlch \ltrch\loch\fs22\loch\f8
+\tab }{\afs22\rtlch \ltrch\loch\fs22\loch\f8
+Concurrency is when several pro}
+\par \pard\plain \s18\sl288\slmult1\sb0\sa140\sl276\slmult1\sb0\sa200{\ul\ulc0\afs22\rtlch \ltrch\loch\fs22\loch\f8
+Why have machines become increasingly multicore in the past decade?}{\afs22\rtlch \ltrch\loch\fs22\loch\f8
+ }
+\par \pard\plain \s18\sl288\slmult1\sb0\sa140\sl276\slmult1\sb0\sa200{\afs22\rtlch \ltrch\loch\fs22\loch\f8
+\tab }
+\par \pard\plain \s18\sl288\slmult1\sb0\sa140\sl276\slmult1\sb0\sa200{\ul\ulc0\afs22\rtlch \ltrch\loch\fs22\loch\f8
+What kinds of problems motivates the need for concurrent execution? (Or phrased differently: What problems do concurrency help in solving?) }
+\par \pard\plain \s18\sl288\slmult1\sb0\sa140\sl276\slmult1\sb0\sa200{\afs22\rtlch \ltrch\loch\fs22\loch\f8
+\tab }
+\par \pard\plain \s18\sl288\slmult1\sb0\sa140\sl276\slmult1\sb0\sa200{\ul\ulc0\afs22\rtlch \ltrch\loch\fs22\loch\f8
+Does creating concurrent programs make the programmer's life easier? Harder? Maybe both? (Come back to this after you have worked on part 4 of this exercise) }
+\par \pard\plain \s18\sl288\slmult1\sb0\sa140\sl276\slmult1\sb0\sa200{\afs22\rtlch \ltrch\loch\fs22\loch\f8
+\tab }
+\par \pard\plain \s18\sl288\slmult1\sb0\sa140\sl276\slmult1\sb0\sa200{\ul\ulc0\afs22\rtlch \ltrch\loch\fs22\loch\f8
+What are the differences between processes, threads, green threads, and coroutines?}{\afs22\rtlch \ltrch\loch\fs22\loch\f8
+ }
+\par \pard\plain \s18\sl288\slmult1\sb0\sa140\sl276\slmult1\sb0\sa200{\afs22\rtlch \ltrch\loch\fs22\loch\f8
+\tab }
+\par \pard\plain \s18\sl288\slmult1\sb0\sa140\sl276\slmult1\sb0\sa200{\ul\ulc0\afs22\rtlch \ltrch\loch\fs22\loch\f8
+Which one of these do }{\cs16\dbch\af10\dbch\af7\loch\f7\ul\ulc0\afs22\rtlch \ltrch\loch\fs22\loch\f8
+pthread_create()}{\ul\ulc0\afs22\rtlch \ltrch\loch\fs22\loch\f8
+ (C/POSIX), }{\cs16\dbch\af10\dbch\af7\loch\f7\ul\ulc0\afs22\rtlch \ltrch\loch\fs22\loch\f8
+threading.Thread()}{\ul\ulc0\afs22\rtlch \ltrch\loch\fs22\loch\f8
+ (Python), }{\cs16\dbch\af10\dbch\af7\loch\f7\ul\ulc0\afs22\rtlch \ltrch\loch\fs22\loch\f8
+go}{\ul\ulc0\afs22\rtlch \ltrch\loch\fs22\loch\f8
+ (Go) create? }
+\par \pard\plain \s18\sl288\slmult1\sb0\sa140\sl276\slmult1\sb0\sa200{\rtlch \ltrch\loch
+\tab }
+\par \pard\plain \s18\sl288\slmult1\sb0\sa140\sl276\slmult1\sb0\sa200{\ul\ulc0\afs22\rtlch \ltrch\loch\fs22\loch\f8
+How does pythons Global Interpreter Lock (GIL) influence the way a python Thread behaves?}{\afs22\rtlch \ltrch\loch\fs22\loch\f8
+ }
+\par \pard\plain \s18\sl288\slmult1\sb0\sa140\sl276\slmult1\sb0\sa200{\rtlch \ltrch\loch
+\tab }
+\par \pard\plain \s18\sl288\slmult1\sb0\sa140\sl276\slmult1\sb0\sa200{\afs22\rtlch \ltrch\loch\fs22\loch\f8
+With this in mind: What is the workaround for the GIL (Hint: it's another module)? }
+\par \pard\plain \s18\sl288\slmult1\sb0\sa140\sl276\slmult1\sb0\sa200{\rtlch \ltrch\loch
+\tab }
+\par \pard\plain \s18\sl288\slmult1\sb0\sa140\sl276\slmult1\sb0\sa200{\afs22\rtlch \ltrch\loch\fs22\loch\f8
+What does }{\cs16\dbch\af10\dbch\af7\loch\f7\afs22\rtlch \ltrch\loch\fs22\loch\f8
+func GOMAXPROCS(n int) int}{\afs22\rtlch \ltrch\loch\fs22\loch\f8
+ change? }
+\par \pard\plain \s2\sb240\sa120\keepn\dbch\af9\dbch\af11\afs28\loch\f4\fs28\sl276\slmult1\sb0\sa200{\b\ab\rtlch \ltrch\loch\loch\f8
+\tab }
+\par \pard\plain \s2\sb240\sa120\keepn\dbch\af9\dbch\af11\afs28\loch\f4\fs28\sl276\slmult1\sb0\sa200\b\ab\rtlch \ltrch\loch
+
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\dbch\af9\langfe2052\dbch\af11\afs24\alang1081\loch\f3\fs24\lang1033\sl276\slmult1\sb0\sa200\rtlch \ltrch\loch
+
+\par }
